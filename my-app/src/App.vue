@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <Form @refresh="loadRecords" />
     <Records ref="recordsComponent" />
   </div>
