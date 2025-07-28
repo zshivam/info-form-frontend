@@ -53,7 +53,7 @@ const submitForm = async () => {
     return
   }
   try {
-    await axios.post("http://127.0.0.1:8000/record", form_Data, {
+    await axios.post("https://info-form-backend-production.up.railway.app/record", form_Data, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }
