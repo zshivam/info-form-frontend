@@ -14,7 +14,7 @@ const Records = ref([])
 
 const loadRecords = async () => {
   try{
-  const res =await axios.get("https://info-form-backend-production.up.railway.app/");
+  const res =await axios.get("https://info-form-backend-production.up.railway.app/records/")
   
 
   Records.value = res.data
